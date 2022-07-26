@@ -30,3 +30,5 @@ Git push: Diferente do comando antrerior, após feita a primeira conexão não p
 --Git checkout -b "nome"
 Git checkout -b "nome": cria uma nova branch e muda o local em que estamos desenvolvendo, saindo da main para a nova
 
+--Git merge (nome da branch)
+Git merge: faz com que as alterações feitas na branch mencionada se mesclem com a branch principal, sincronizando as duas.
