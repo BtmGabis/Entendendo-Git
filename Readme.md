@@ -24,5 +24,9 @@ Git remote add origin: faz com que o git conecte o repositório local ao reposit
 --Git push -u origin main (main ou o nome da branch em que estamos)
 Git push -u origin main: faz com que o git empurre os commits feitos no repositório local para o repositório do GitHub.
 
+--Git push origin(nome da branch)
+Git push: Diferente do comando antrerior, após feita a primeira conexão não precisamos utilizar mais o -u origin, e sim push nome da branch.
+
 --Git checkout -b "nome"
 Git checkout -b "nome": cria uma nova branch e muda o local em que estamos desenvolvendo, saindo da main para a nova
+
