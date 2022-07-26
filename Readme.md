@@ -9,6 +9,9 @@ Git init: faz com que o git inicialize um repositório no diretório em que o co
 --Git add 'nome do projeto'
 Git add: faz comn que o git adicione seu projeto dentro da branch, deixando ele na espera para ser commitado.
 
+--Git add .
+Git add .: faz com que todas as alterações feitas sejam colocadas na area de espera diferente de quando definimos um projeto especifico.
+
 --Git commit -m "Mensagem"
 Git Commit -m: faz o comit dos projetos adicionados no git add.
 
@@ -18,7 +21,7 @@ Git branch -m: permite que o nome da branch principal geralmente chamada de mast
 --Git remote add origin "link do repositório" (shift+insert) (insert) (ctrl+shift+v)
 Git remote add origin: faz com que o git conecte o repositório local ao repositório do GitHub chamado de Origin.
 
---Git push -u origin main
+--Git push -u origin main (main ou o nome da branch em que estamos)
 Git push -u origin main: faz com que o git empurre os commits feitos no repositório local para o repositório do GitHub.
 
 --Git checkout -b "nome"
